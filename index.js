@@ -8,7 +8,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
   object[key] = value
 }
 
-function (cape) {
+function cape() {
   var obj = { prop: 1 }
   obj.prop2 = 2
   return obj
